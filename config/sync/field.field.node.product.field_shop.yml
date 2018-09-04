@@ -1,0 +1,21 @@
+uuid: d4dc8bfc-88b2-48c1-94fc-3ba0e80693af
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_shop
+    - node.type.product
+id: node.product.field_shop
+field_name: field_shop
+entity_type: node
+bundle: product
+label: Shop
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:shop_entity'
+  handler_settings: {  }
+field_type: entity_reference

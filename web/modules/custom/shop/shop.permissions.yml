@@ -1,0 +1,30 @@
+add shop entity entities:
+  title: 'Create new Shop entity entities'
+
+administer shop entity entities:
+  title: 'Administer Shop entity entities'
+  description: 'Allow to access the administration form to configure Shop entity entities.'
+  restrict access: true
+
+delete shop entity entities:
+  title: 'Delete Shop entity entities'
+
+edit shop entity entities:
+  title: 'Edit Shop entity entities'
+
+view published shop entity entities:
+  title: 'View published Shop entity entities'
+
+view unpublished shop entity entities:
+  title: 'View unpublished Shop entity entities'
+
+view all shop entity revisions:
+  title: 'View all Shop entity revisions'
+
+revert all shop entity revisions:
+  title: 'Revert all Shop entity revisions'
+  description: 'Role requires permission <em>view Shop entity revisions</em> and <em>edit rights</em> for shop entity entities in question or <em>administer shop entity entities</em>.'
+
+delete all shop entity revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Shop entity revisions</em> and <em>delete rights</em> for shop entity entities in question or <em>administer shop entity entities</em>.'

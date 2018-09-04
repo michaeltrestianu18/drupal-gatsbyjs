@@ -1,0 +1,14 @@
+
+# Shop entity menu items definition
+entity.shop_entity.collection:
+  title: 'Shop entity list'
+  route_name: entity.shop_entity.collection
+  description: 'List Shop entity entities'
+  parent: system.admin_structure
+  weight: 100
+
+shop_entity.admin.structure.settings:
+  title: 'Shop entity settings'
+  description: 'Configure Shop entity entities'
+  route_name: shop_entity.settings
+  parent: system.admin_structure

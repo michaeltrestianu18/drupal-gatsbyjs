@@ -1,0 +1,10 @@
+uuid: b37dae1a-dc8d-414b-9c1d-71f4bd6e8bf4
+langcode: en
+status: true
+dependencies:
+  module:
+    - shop
+id: shop_entity.token
+label: Token
+targetEntityType: shop_entity
+cache: true

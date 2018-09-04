@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains shop.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function shop_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the shop module.
+    case 'help.page.shop':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('A basic shop entity') . '</p>';
+      return $output;
+
+    default:
+  }
+}

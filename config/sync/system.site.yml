@@ -1,0 +1,14 @@
+uuid: 5f45d1c1-aba6-4e23-ab57-f38792dca55b
+name: gatsbyjs
+mail: michael.trestianu@inviqa.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

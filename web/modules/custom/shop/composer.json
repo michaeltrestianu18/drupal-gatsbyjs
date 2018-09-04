@@ -1,0 +1,14 @@
+{
+  "name": "drupal/shop",
+  "type": "drupal-module",
+  "description": "A basic shop entity",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/shop",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/shop",
+    "source": "http://cgit.drupalcode.org/shop"
+  },
+  "require": { }
+}

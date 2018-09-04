@@ -1,0 +1,4 @@
+name: marcol
+recipe: drupal8
+config:
+  webroot: web

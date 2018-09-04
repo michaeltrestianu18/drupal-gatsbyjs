@@ -1,0 +1,5 @@
+entity.shop_entity.add_form:
+  route_name: entity.shop_entity.add_form
+  title: 'Add Shop entity'
+  appears_on:
+    - entity.shop_entity.collection
